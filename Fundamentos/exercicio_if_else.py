@@ -23,6 +23,8 @@ else:
 
   '''
 
+
+'''
 ##Revendo if/else
 
 condicao1 = False
@@ -38,3 +40,17 @@ elif condicao3:
   print('Código para a condição 3')
 else:
   print('Código para a condição 4')
+
+  '''
+
+##Exercício If Else
+
+primeiro_valor = input('Digite um valor: ')
+segundo_valor = input('Digite outro valor: ')
+
+if primeiro_valor > segundo_valor:
+  print('Primeiro valor é maior que segundo valor')
+elif primeiro_valor == segundo_valor:
+  print('Os valores são iguais')
+else:
+  print('O segundo valor é maior que o primeiro valor')
