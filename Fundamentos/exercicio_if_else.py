@@ -2,6 +2,7 @@
 ## Treinando if/else dentro do if/else
 ## Utilizando indice para analizar caracteres da string
 
+'''
 nome = input('Digite seu nome: ')
 idade = input('Digite sua idade: ')
 
@@ -19,3 +20,21 @@ if (nome and idade):
   print(f'A última letra do seu nome é: "{nome[-1]}".')
 else:
   print('Desculpe, você deixou campos vazios.')
+
+  '''
+
+##Revendo if/else
+
+condicao1 = False
+condicao2 = False
+condicao3 = True
+condicao4 = False
+
+if condicao1:
+  print('Código para a condição 1')
+elif condicao2:
+  print('Código para a condição 2')
+elif condicao3:
+  print('Código para a condição 3')
+else:
+  print('Código para a condição 4')
